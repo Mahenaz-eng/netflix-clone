@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StreamFlix - Watch TV Shows & Movies</title>
+  <link rel="stylesheet" href="stream.css">
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <a href="#" class="logo">STREAMFLIX</a>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">New & Popular</a></li>
+          <li><a href="#">My List</a></li>
+        </ul>
+      </nav>
+      <div class="header-right">
+        <div class="search">
+          <input type="text" placeholder="Titles, people, genres">
+        </div>
+        <button class="btn">Sign In</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Stranger Things</h1>
+        <p>When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.</p>
+        <div class="hero-buttons">
+          <button class="btn">▶ Play</button>
+          <button class="btn" style="background-color: rgba(109, 109, 110, 0.7);">+ My List</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Popular on StreamFlix</h2>
+    <div class="row">
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>The Crown</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Money Heist</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Squid Game</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Dark</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Breaking Bad</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>The Witcher</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Trending Now</h2>
+    <div class="row">
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Bridgerton</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Ozark</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>The Queen's Gambit</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Cobra Kai</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Lupin</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Shadow and Bone</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Watch Again</h2>
+    <div class="row">
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Stranger Things</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>The Umbrella Academy</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Black Mirror</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Peaky Blinders</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>Narcos</h3>
+      </div>
+      <div class="movie-card" style="background-image: url('/api/placeholder/200/300');">
+        <h3>You</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="#">FAQ</a>
+        <a href="#">Help Center</a>
+        <a href="#">Account</a>
+        <a href="#">Media Center</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Jobs</a>
+        <a href="#">Ways to Watch</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <p>&copy; 2025 StreamFlix, Inc.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Add scroll effect to header
+    window.addEventListener('scroll', function() {
+      const header = document.getElementById('header');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
+
+
